@@ -49,3 +49,5 @@ headers := Map(
   "scala" -> Apache2_0("2016", "Dennis Vriend"),
   "conf" -> Apache2_0("2016", "Dennis Vriend", "#")
 )
+
+enablePlugins(AutomateHeaderPlugin)
